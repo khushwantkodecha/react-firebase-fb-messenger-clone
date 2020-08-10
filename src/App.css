@@ -1,0 +1,31 @@
+.app {
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 5px;
+  margin-top: 45px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.app__input {
+  flex: 1;
+  border-radius: 19px !important;
+  background-color: lightgrey !important;
+}
+
+.app__input:focus,
+.app__input:active {
+  outline: none !important;
+  outline-color: lightgray !important;
+}
+
+.app__form {
+  margin-top: 60px;
+}
